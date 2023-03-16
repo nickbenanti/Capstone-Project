@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     outline: 0;
-    border: 0;
+    /* border: 0; */
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -13,17 +13,31 @@
     background-attachment: fixed;
     background-size: cover;
 } 
-button{
-    cursor: pointer;
+
+header{
+    height: 20vh;
+    background-color: #00030a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #97acf1;
+    margin-bottom: 50px;
+    opacity: .8;
+
+}
+main{
+    display: flex;
+    justify-content: center;
 }
 #input{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    width: 300px;
-    opacity: .8;
-    color: rgb(148, 148, 231);
-
+    color: black;
+    
 }
 #addedplayer{
     width: 100px;
@@ -31,21 +45,19 @@ button{
 }
 input{
     margin: 7px;
-
+    
 }
 
-label{
-    margin: 7px;
-    color: aliceblue;
-}
 #position{
     margin: 7px;
 }
 #players-container{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
     color: aliceblue;
     margin: 7px;
 }
@@ -53,6 +65,44 @@ label{
     width: 250px; 
     height: 250px;
 }
+.players{
+    margin: 30px;
+}
+.player-position h2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.player-position{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+button{
+    background-color: #3361f5;
+    border: 1px solid #3361f5;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 2px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+    transform: translateY(-2px);
 
-
+}
