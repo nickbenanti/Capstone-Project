@@ -2,7 +2,7 @@ const playersContainer = document.getElementById('players-container')
 const addedPLayer = document.getElementById('addedplayer')
 const playerPostition = document.querySelectorAll('.player-position')
 
-const baseURL = '/api/player'
+const baseURL = 'http://localhost:4004/api/player'
 
 const getAllPlayers = () =>{
     axios.get(baseURL)
