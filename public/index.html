@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css">
+    <title>Document</title>
+</head>
+<body id="background">
+    <main>
+    <div id="input">
+        <input type="text"
+        id="image"
+        placeholder="Find a Picture of Your Player">
+        
+        <input type="text"
+        id="name"
+        placeholder="Players Name">
+
+        <label for="position">Position</label>
+        <select name="position" id="position">
+            <option value="Offence">Offence</option>
+            <option value="Defence">Defence</option>
+            <option value="Goalie">Goalie</option>
+        </select>   
+        <button id="addedplayer">Add Player</button>
+    </div>
+    <section id="players-container">
+        <div id="offence" class="player-position">
+            <h2>Offence</h2>
+        </div>
+        <div id="defence" class="player-position">
+            <h2>Defence</h2>
+        </div>
+        <div id="goalie" class="player-position">
+            <h2>Goalie</h2>
+        </div>
+
+    </section>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/js"></script>
+</body>
+</html>

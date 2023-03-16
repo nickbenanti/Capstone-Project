@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Connor_McDavid_2-FEB-2022.jpg/750px-Connor_McDavid_2-FEB-2022.jpg",
+        "name": "Connor McDavid",
+        "position":"Offence"
+    },
+    {
+        "id": 2,
+        "image": "https://www.eishockey.info/photos/20211103-Sidney-Crosby-Pittsburgh-Penguins-460-NHL-Media.jpg",
+        "name": "Sidney Crosby",
+        "position":"Offence"
+    },
+    {
+        "id": 3,
+        "image": "https://www.google.com/url?sa=i&url=http%3A%2F%2Ft3.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcSb45_f7QiKcUJx7T3MxhLbyj7d0RDODC2Po13jQp3NKutZOl2RdqBhH2tb7UCWiXqUv8Y3d6hJaWnQuUg&psig=AOvVaw1yRTm8WaHSxMq5BW0w9PNg&ust=1678973895864000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCNDovaaH3v0CFQAAAAAdAAAAABAJ",
+        "name": "Roope Hintz",
+        "position":"Offence"
+    },
+    {
+        "id": 4,
+        "image": "https://www.google.com/url?sa=i&url=http%3A%2F%2Ft3.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcTQzbG3rUP1-rUMTkU9qbSqDBrQ4J314Ijxhiorf0rugKje_VLe5n6gdZJ8W9gwMniKRJmelwHD_458Z9s&psig=AOvVaw0MeOGrXOdurwTZYxEGoZir&ust=1678973984962000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCKjc_NCH3v0CFQAAAAAdAAAAABAE",
+        "name": "Miro Heiskanen",
+        "position":"Defence"
+    },
+    {
+        "id": 5,
+        "image": "https://cdn.vox-cdn.com/thumbor/pFWPbJ_0s0PY0Js1MwMMui2x01M=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24028555/1239987711.jpg",
+        "name": "Cale Makar",
+        "position":"Defence"
+    },
+    {
+        "id": 6,
+        "image": "https://www.hockeydb.com/ihdb/photos/andrei-vasilevskiy-2022-55.jpg",
+        "name": "Andrei Vasilevskiy",
+        "position":"Goalie"
+    }
+
+]
+

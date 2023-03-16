@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+#background{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/386/400/original/ice-hockey-arena-background-concept-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+#input{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 500px;
+    opacity: .8;
+}
+#addedplayer{
+    width: 100px;
+    margin: 7px;
+}
+input{
+    margin: 7px;
+
+
+}
+label{
+    margin: 7px;
+    color: aliceblue;
+}
+#position{
+    margin: 7px;
+}
+#players-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.player-img{
+    width: 250px; 
+    height: 250px;
+}
+
+
+
