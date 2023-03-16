@@ -13,12 +13,17 @@
     background-attachment: fixed;
     background-size: cover;
 } 
+button{
+    cursor: pointer;
+}
 #input{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 500px;
+    width: 300px;
     opacity: .8;
+    color: rgb(148, 148, 231);
+
 }
 #addedplayer{
     width: 100px;
@@ -27,8 +32,8 @@
 input{
     margin: 7px;
 
-
 }
+
 label{
     margin: 7px;
     color: aliceblue;
@@ -42,6 +47,7 @@ label{
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    margin: 7px;
 }
 .player-img{
     width: 250px; 

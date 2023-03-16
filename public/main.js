@@ -46,24 +46,40 @@ const submitPlayer = () =>{
 }
 
 
-const createPlayerCard = (player) =>{
+const createPlayerCard = (player, positionDiv) =>{
     const playerCard = document.createElement('div')
     playerCard.classList.add('player-card')
     playerCard.innerHTML = `
     <div class="players">
         <img src= ${player.image} class="player-img">
-        <h3 id="name">${player.name}</h3>
+        <h3 id="name-1">${player.name}</h3>
         <h3 id="position">Position: ${player.position}</h3>
         <button onclick="deletePlayer(${player.id})">Delete</button>
     </div>`
 
-    playersContainer.appendChild(playerCard)
+    positionDiv.appendChild(playerCard)
 }
 
 const displayPlayers = arr =>{
-    playersContainer.innerHTML = ``
-    for(let i =0; i < arr.length; i++){
-        createPlayerCard(arr[i])
+    playersContainer.innerHTML = `
+        <div id="offence" class="player-position">
+            <h2>Offence</h2>
+        </div>
+        <div id="defence" class="player-position">
+            <h2>Defence</h2>
+        </div>
+        <div id="goalie" class="player-position">
+            <h2>Goalie</h2>
+        </div>
+    `
+    let positionDivs = document.querySelectorAll('.player-position')
+
+    for(let j = 0; j < positionDivs.length; j++){
+        for(let i =0; i < arr.length; i++){
+            if(positionDivs[j].id === arr[i].position.toLowerCase()){
+                createPlayerCard(arr[i], positionDivs[j])
+            }
+        }
     }
 }
 

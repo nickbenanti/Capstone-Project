@@ -28,7 +28,7 @@ app.get('/js', (req,res) =>{
 
 app.get('/api/player', getPlayers)
 app.post('/api/player',addPlayer)
-app.delete('api/player/:id', deletePlayer)
+app.delete('/api/player/:id', deletePlayer)
 
 
 
